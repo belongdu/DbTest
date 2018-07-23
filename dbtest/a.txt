@@ -1,0 +1,28 @@
+"/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java" 
+-Didea.launcher.port=50674 "-Didea.launcher.bin.path=/Applications/Android Studio.app/Contents/bin" 
+-Dfile.encoding=UTF-8 
+-classpath "/Users/duwei/work/tools/sdk/platforms/android-27/android.jar 
+:/Users/duwei/work/tools/sdk/platforms/android-27/data/res 
+:/Users/duwei/work/projects/gitlab/BuildTool/app/build/intermediates/classes/debug 
+:/Users/duwei/work/tools/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/c376838a190502b0cc6e505c923abe69/jars/classes.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7274d9576eb580660a09390487575dbb/res 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7274d9576eb580660a09390487575dbb/jars/classes.jar 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.51/e4a9d4b13ab19ed1e6531fce6df98e8cfa7f7301/kotlin-stdlib-common-1.2.51.jar 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4c47a0a9f592cc3579c4e8fe6533e1ce/jars/classes.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/7d2aace4fe9758118bcc108d99e7d43e/jars/classes.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/969d5e060f578ca39709a7dfeb6b0a19/jars/classes.jar 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/c3e924ff888be7147fe9269208ae2515/jars/classes.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fc29654b56cde5b7a054d5391a3b4f32/jars/classes.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fc29654b56cde5b7a054d5391a3b4f32/res 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/fa8127e505bff50fec291d0dd619d1bda5c619e0/kotlin-stdlib-1.2.51.jar 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.51/fa510f846ca4894fdf26776dd64cefb4030dcd12/kotlin-stdlib-jre7-1.2.51.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/09c02921eabe5040ad2f27326779ea55/jars/classes.jar 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/09c02921eabe5040ad2f27326779ea55/res 
+:/Users/duwei/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/7fc2826ccb142d24ab12f97953e7db54/jars/classes.jar 
+:/Users/duwei/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar 
+:/Applications/Android Studio.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMainV2 com.zongheng.buildtool.TesKt
+
