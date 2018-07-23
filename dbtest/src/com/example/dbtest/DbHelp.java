@@ -30,6 +30,9 @@ public class DbHelp {
 	public static void test(){
 		new Thread(){
 			fds
+
+			fdsfds
+			
 			@Override
 			public void run(){
 			            
