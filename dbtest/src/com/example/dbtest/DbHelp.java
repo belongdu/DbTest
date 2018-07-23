@@ -11,12 +11,12 @@ import android.util.Log;
 
 public class DbHelp {
 	
-    //orcl为oracle数据库中的数据库名，localhost表示连接本机的oracle数据库     
-   //1521为连接的端口号     
+    //orcl脦陋oracle脢媒戮脻驴芒脰脨碌脛脢媒戮脻驴芒脙没拢卢localhost卤铆脢戮脕卢陆脫卤戮禄煤碌脛oracle脢媒戮脻驴芒     
+   //1521脦陋脕卢陆脫碌脛露脣驴脷潞脜     
     private static String url="jdbc:oracle:thin:@192.168.16.112:1521:settle";    
-    //system为登陆oracle数据库的用户名     
+    //system脦陋碌脟脗陆oracle脢媒戮脻驴芒碌脛脫脙禄搂脙没     
     private static String user="couponms";    
-    //manager为用户名system的密码     
+    //manager脦陋脫脙禄搂脙没system碌脛脙脺脗毛     
     private static String password="couponms";    
     public static Connection conn;    
     public static PreparedStatement ps;    
@@ -29,6 +29,7 @@ public class DbHelp {
 	
 	public static void test(){
 		new Thread(){
+			dfsfs
 			fds
 
 			fdsfds
@@ -45,9 +46,9 @@ public class DbHelp {
 			public void run(){
 			            
 				 try {    
-			            //初始化驱动包     
+			            //鲁玫脢录禄炉脟媒露炉掳眉     
 			            Class.forName("oracle.jdbc.driver.OracleDriver");    
-			            //根据数据库连接字符，名称，密码给conn赋值     
+			            //赂霉戮脻脢媒戮脻驴芒脕卢陆脫脳脰路没拢卢脙没鲁脝拢卢脙脺脗毛赂酶conn赂鲁脰碌     
 			            conn=DriverManager.getConnection(url, user, password);    
 			                
 			        } catch (Exception e) {    
@@ -56,24 +57,24 @@ public class DbHelp {
 			        }    
 			        try {    
 			        	
-			            String sql = "select * from act";     // 查询数据的sql语句     
-			            st = (Statement) conn.createStatement();    //创建用于执行静态sql语句的Statement对象，st属局部变量     
+			            String sql = "select * from act";     // 虏茅脩炉脢媒戮脻碌脛sql脫茂戮盲     
+			            st = (Statement) conn.createStatement();    //麓麓陆篓脫脙脫脷脰麓脨脨戮虏脤卢sql脫茂戮盲碌脛Statement露脭脧贸拢卢st脢么戮脰虏驴卤盲脕驴     
 			                
-			            ResultSet rs = st.executeQuery(sql);    //执行sql查询语句，返回查询数据的结果集     
-			            System.out.println("最后的查询结果为：");    
-			            while (rs.next()) { // 判断是否还有下一个数据     
+			            ResultSet rs = st.executeQuery(sql);    //脰麓脨脨sql虏茅脩炉脫茂戮盲拢卢路碌禄脴虏茅脩炉脢媒戮脻碌脛陆谩鹿没录炉     
+			            System.out.println("脳卯潞贸碌脛虏茅脩炉陆谩鹿没脦陋拢潞");    
+			            while (rs.next()) { // 脜脨露脧脢脟路帽禄鹿脫脨脧脗脪禄赂枚脢媒戮脻     
 			                    
-			                // 根据字段名获取相应的值     
+			                // 赂霉戮脻脳脰露脦脙没禄帽脠隆脧脿脫娄碌脛脰碌     
 			                String name = rs.getString("ACT_ID");    
 			               
-			                //输出查到的记录的各个字段的值     
+			                //脢盲鲁枚虏茅碌陆碌脛录脟脗录碌脛赂梅赂枚脳脰露脦碌脛脰碌     
 			               Log.i("testddd",name);   
 			                
 			            }    
-			            conn.close();   //关闭数据库连接     
+			            conn.close();   //鹿脴卤脮脢媒戮脻驴芒脕卢陆脫     
 			                
 			        } catch (SQLException e) {    
-			            System.out.println("查询数据失败");    
+			            System.out.println("虏茅脩炉脢媒戮脻脢搂掳脺");    
 			        }    
 			}
 		}.start();
